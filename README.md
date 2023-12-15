@@ -24,3 +24,4 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 ```
+4. Миграция стандартных моделей ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
