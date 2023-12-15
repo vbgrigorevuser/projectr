@@ -13,18 +13,8 @@
 1. Создание django-проекта ```django-admin startproject projectr```
 2. Создание django-приложения по аутентификации менеджеров ```python3 manage.py startapp managerauth```
 3. Регистрация django-приложения в settings.py
-```
-INSTALLED_APPS = [
-    'managerauth.apps.ManagerauthConfig',
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
-```
 4. Миграция стандартных моделей ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
 5. Создание суперпользователя ```python3 manage.py createsuperuser```
 6. Проверка сервера ```python3 manage.py runserver``` 
 7. Создание модели Manager (см. файл managerauth/models.py), миграции ```python3 manage.py makemigrations```, ```python3 manage.py migrate``` и регистрация на admin-сайте (managerauth/admin.py)
+8. Создание урлов, и настройка вьюшки-заглушки (projectr/urls.py, managerauth/urls.py, managerauth/views.py)
