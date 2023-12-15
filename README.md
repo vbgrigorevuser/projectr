@@ -27,3 +27,4 @@ INSTALLED_APPS = [
 4. Миграция стандартных моделей ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
 5. Создание суперпользователя ```python3 manage.py createsuperuser```
 6. Проверка сервера ```python3 manage.py runserver``` 
+7. Создание модели Manager (см. файл managerauth/models.py), миграции ```python3 manage.py makemigrations```, ```python3 manage.py migrate``` и регистрация на admin-сайте (managerauth/admin.py)
