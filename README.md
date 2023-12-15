@@ -11,3 +11,16 @@
 
 ## Документация в деталях по созданию проекта
 1. Создание django-проекта ```django-admin startproject projectr```
+2. Создание django-приложения по аутентификации менеджеров ```python3 manage.py startapp managerauth```
+3. Регистрация django-приложения в settings.py
+```
+INSTALLED_APPS = [
+    'managerauth.apps.ManagerauthConfig',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+```
