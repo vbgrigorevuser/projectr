@@ -26,3 +26,4 @@ INSTALLED_APPS = [
 ```
 4. Миграция стандартных моделей ```python3 manage.py makemigrations```, ```python3 manage.py migrate```
 5. Создание суперпользователя ```python3 manage.py createsuperuser```
+6. Проверка сервера ```python3 manage.py runserver``` 
