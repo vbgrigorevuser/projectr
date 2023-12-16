@@ -1,0 +1,7 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'managerauth/styles.css' %}">
+<script type="text/javascript" src="{% static 'managerauth/hash.js' %}"></script>
+<div>
+    <p>Email {{email}} is already taken! Now, log in</p>
+</div>
+{% include 'managerauth/login.html' %}

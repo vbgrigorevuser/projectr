@@ -1,0 +1,14 @@
+{% load static %}
+<div class="form-box">
+    <h1>Manager login</h1>
+    <form action="{% url 'managerauth:login' %}" method="post" id="login-form">
+        {% csrf_token %}     
+        <label for="login-email">Email</label>
+        <input id="login-email" type="email" name="login-email">
+      
+        <label for="login-password">Password</label>
+        <input id="login-password" type="password" name="login-password">
+        <input class="button-primary" type="submit" value="Login" />  
+    </form>
+</div>
+<script type="text/javascript" src="{% static 'managerauth/login.js' %}"></script>

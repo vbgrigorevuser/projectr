@@ -1,0 +1,7 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'managerauth/styles.css' %}">
+<script type="text/javascript" src="{% static 'managerauth/hash.js' %}"></script>
+<div>
+    <p>No accout with {{email}} has been registred. You can register</p>
+</div>
+{% include 'managerauth/register.html' %}
