@@ -18,3 +18,4 @@
 6. Проверка сервера ```python3 manage.py runserver``` 
 7. Создание модели Manager (см. файл managerauth/models.py), миграции ```python3 manage.py makemigrations```, ```python3 manage.py migrate``` и регистрация на admin-сайте (managerauth/admin.py)
 8. Создание урлов, и настройка вьюшки-заглушки (projectr/urls.py, managerauth/urls.py, managerauth/views.py)
+9. Создание нормальных урлов, вьюшек, и дополнительного js кода на фронте (managerauth/static/managerauth, managerauth/templates/managerauth)
